@@ -1,7 +1,6 @@
 import React from "react";
 import "../../styles/index.css";
 import { useState } from "react";
-import { number } from "prop-types";
 
 //create your first component
 const TrafficLight = () => {
