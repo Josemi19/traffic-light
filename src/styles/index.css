@@ -1,12 +1,50 @@
+.base{
+    background-color: black;
+    height: 100px;
+    width: 20px;
+    margin: auto;
+}
 
-/* 
+.body{
+    background-color: black;
+    height: 350px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.luzRoja{
+    background-color: red;
+    height: 75px;
+    width: 75px;
+    border-radius: 50px;
+    margin: auto;
+}
 
-*/
+.luzAmarillo{
+    background-color: yellow;
+    height: 75px;
+    width: 75px;
+    border-radius: 50px;
+    margin: auto;
+}
+
+.luzVerde{
+    background-color: green;
+    height: 75px;
+    width: 75px;
+    border-radius: 50px;
+    margin: auto;
+}
+
+.glow{
+    box-shadow: 0 0 50px white;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
